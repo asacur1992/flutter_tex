@@ -9,7 +9,7 @@ class TeXViewGroup extends TeXViewWidget {
   final List<TeXViewGroupItem> children;
 
   /// On Tap Callback when a child is tapped.
-  final Function(String id)? onTap;
+  final Function(dynamic id)? onTap;
 
   /// On Tap Callback when a child is tapped.
   final Function(List<String> ids)? onItemsSelection;
